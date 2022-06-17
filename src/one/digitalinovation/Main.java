@@ -15,5 +15,9 @@ public class Main {
         Emprestimo.calculo(1000, 2);
         Emprestimo.calculo(1000, 3);
         Emprestimo.calculo(1000, 5);
+
+        Quadrilatero.area(2);
+        Quadrilatero.area(2, 2);
+        Quadrilatero.area(2, 2, 2);
     }
 }
