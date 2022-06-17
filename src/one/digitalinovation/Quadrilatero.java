@@ -2,19 +2,23 @@ package one.digitalinovation;
 
 public class Quadrilatero {
 
-    public static void area(double lado){
-
-        System.out.println("Área do quadrado:" + lado * lado);
+    public static double area(double lado){
+        double valorFinal =  lado * lado;
+        System.out.println("Área do quadrado:" + valorFinal);
+        return valorFinal;
     }
 
-    public static void area(double ladoMaior, double ladoMenor){
-
-        System.out.println("Área do retângulo:" + ladoMaior * ladoMenor);
+    public static double area(double ladoMaior, double ladoMenor){
+        double valorFinal =  ladoMaior * ladoMenor;
+        System.out.println("Área do retangulo:" + valorFinal);
+        return valorFinal;
     }
 
-    public static void area(double baseMaior, double baseMenor, double altura){
+    public static double area(double baseMaior, double baseMenor, double altura){
+        double valorFinal =  ((baseMaior+baseMenor) * altura) / 2;
+        System.out.println("Área do trapézio:" + valorFinal);
+        return valorFinal;
 
-        System.out.println("Área do trapézio:" + ((baseMaior+baseMenor) * altura) / 2);
     }
 
 }
